@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: Poppins;
+  /* min-height: 130px; */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 1.5rem;
+}
+
+.navbar-nav {
+  gap: 2rem;
+}
+
+.hero {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  padding-top: 80px;
+  background-color: #061122;
+  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content-text {
+  flex: 1;
+}
+
+.content-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  /* color: #fff; */
+}
+
+.content-text p {
+  font-size: 1.2rem;
+  /* color: #fff; */
+  width: 30em;
+}
+
+.content-text span {
+  color: red;
+}
+
+.hero-img {
+  flex: 1;
+  text-align: right;
+  bottom: 0;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+}
+
+.hero-img img {
+  height: auto;
+  max-height: 90vh;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.connect {
+  background-color: #000;
+  min-height: 500px;
+}
+
+.content-second-text {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.content-second-text p {
+  width: 30em;
+  height: 100px;
+}
+
+.content-second-text h2 span {
+  color: red;
+}
+
+.card-wrap {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card.custom-dark {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.card-body.custom-dark {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.card-img-small {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.content-about {
+  padding-top: 5em;
+  padding-left: 2em;
+  background-color: #061122;
+  height: 100vh;
+  width: 100%;
+}
+
+.content-about-text-judul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+.wrapper-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-about-text-sec {
+  width: 40em;
+  height: 30em;
+  /* background-color: aquamarine; */
+}
+
+.content-about-text-sec p {
+  font-size: 16px;
+  /* background-color: aqua; */
+}
+
+.text-paragraf-satu p {
+  margin-top: 10em;
+}
+
+.content-about-text-sec span {
+  color: red;
+}
+
+.content-about-kanan {
+  /* background-color: aquamarine; */
+  width: 50em;
+}
+
+.content-about-kanan h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  /* background-color: aqua; */
+  color: #fff;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 49em;
+}
+
+.content-about-pendidikan h3 {
+  color: #fff;
+  width: 53em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.table-wrapper-pendidikan {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 30em;
+  margin-left: 32em;
+}
