@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const button = document.getElementById("connectKontak");
 
   button.addEventListener("click", function () {
-    window.open("https://wa.me/081293277441", "_blank");
+    window.open("https://wa.me/6281293277441", "_blank");
   });
 });
 
